@@ -7,3 +7,6 @@ services:
       - 8000:8000
     deploy:
       replicas: 10
+    update_config:
+        parallelism: 2
+        delay: 10s
