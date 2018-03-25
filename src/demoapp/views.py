@@ -3,4 +3,4 @@ import socket
 
 def index(request):
     hostname = socket.gethostname()
-    return HttpResponse(hostname + " - Hello, world! \n")
+    return HttpResponse(hostname + " - Hello, world! 2.0\n")
