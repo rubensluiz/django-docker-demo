@@ -1,4 +1,4 @@
 from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse("Hello, world! \n")
+    return HttpResponse("Hello, world! 2.0\n")
