@@ -5,3 +5,5 @@ services:
     image: 'rubensluiz/django-docker-demo:latest'
     ports:
       - 8000:8000
+    deploy:
+      replicas: 10

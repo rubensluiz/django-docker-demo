@@ -1,4 +1,6 @@
 from django.http import HttpResponse
+import socket
 
 def index(request):
-    return HttpResponse("Hello, world! \n")
+    hostname = socket.gethostname()
+    return HttpResponse(hostname + " - Hello, world! \n")
