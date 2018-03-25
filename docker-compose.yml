@@ -2,7 +2,6 @@ version: '3'
 
 services:
   web:
-    image: 'django-demo'
-    build: .
+    image: 'rubensluiz/django-docker-demo:latest'
     ports:
       - 8000:8000
