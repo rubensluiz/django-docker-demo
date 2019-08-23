@@ -1,4 +1,4 @@
-FROM python:3.6.4-alpine3.7
+FROM python:3.6.9-alpine3.10
 
 EXPOSE 8000
 RUN apk add --no-cache curl
